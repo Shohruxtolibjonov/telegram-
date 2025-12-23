@@ -1,0 +1,47 @@
+# Telegram Bot Framework
+aiogram==3.15.0
+
+# Async HTTP Client/Server
+aiohttp==3.10.10
+
+# Async SQLite Database
+aiosqlite==0.20.0
+
+# Additional dependencies (automatically installed with above packages)
+# But listing them explicitly for clarity:
+
+# Telegram Bot API types and utilities
+pydantic==2.9.2
+
+# Async magic for better performance
+magic-filter==1.0.12
+
+# Multipart form data parsing
+aiohttp-multipart==0.10.1
+
+# Character encoding detection
+charset-normalizer==3.4.0
+
+# Asynchronous I/O
+asyncio-anyio==0.1.0
+
+# Type hints support
+typing-extensions==4.12.2
+
+# Date/time utilities
+python-dateutil==2.9.0
+
+# Optional but recommended for production:
+# ---------------------------------------------
+
+# Environment variables management
+python-dotenv==1.0.1
+
+# Better logging
+colorlog==6.9.0
+
+# Performance monitoring
+psutil==6.1.0
+
+# For deployment with systemd/supervisor
+supervisor==4.2.5
